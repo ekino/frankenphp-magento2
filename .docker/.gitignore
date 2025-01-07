@@ -1,0 +1,12 @@
+# ./docker directory
+*
+!.gitignore
+!database
+!database/**
+!opensearch
+!opensearch/**
+!php
+!php/**
+!rabbitmq
+!rabbitmq/**
+*/.env
