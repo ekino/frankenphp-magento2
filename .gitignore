@@ -21,7 +21,6 @@
 .idea
 auth.json
 auth.json.sample
-CHANGELOG.md
 COPYING.txt
 grunt-config.json.sample
 Gruntfile.js.sample
