@@ -1,5 +1,5 @@
 # Versions
-FROM dunglas/frankenphp:1.5.0-php8.3 AS frankenphp_upstream
+FROM dunglas/frankenphp:1.5.0-php8.4 AS frankenphp_upstream
 
 # Base FrankenPHP image
 FROM frankenphp_upstream AS frankenphp_base
@@ -27,7 +27,7 @@ RUN set -eux; \
 	  	gd \
 	  	intl \
 	  	mbstring \
-	  	mcrypt \
+	  	ftp \
 	  	opcache \
 	  	pdo_mysql \
 	  	soap \
